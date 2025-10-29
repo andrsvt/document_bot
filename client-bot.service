@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Client Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/bots
+ExecStart=/usr/bin/python3 /opt/bots/client_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
