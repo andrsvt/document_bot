@@ -1,5 +1,4 @@
 # Document Signing Telegram Bots
-# Document Signing Telegram Bots
 
 Система электронного документооборота с двухэтапной аутентификацией через Telegram ботов.
 
